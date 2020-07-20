@@ -1,0 +1,78 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--primary);
+  color: var(--white);
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+*,
+button,
+input {
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  --primary: #21222c;
+  --secondary: #282a36;
+  --tertiary: #343746;
+  --gray: #999591;
+  --white: #f4ede8;
+  --red: #c53030;
+  --green: #23d2ac;
+  --lime: #4cd137;
+  --lime-opacity1: #4cd13733;
+  --blue: #33adff;
+  --blue-opacity1: #5ac6ef33;
+  --blue-opacity2: #5ac6efaa;
+  --blue-opacity3: #5ac6efcc;
+  --mayk-primary: #fd951f;
+  --tmowes-primary: #d46900;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#player {
+  background: var(--secondary);
+  width: 90%;
+  max-width: 375px;
+  box-shadow: 0 4px 4px 0px var(--blue-opacity1),
+    0 6px 2px -4px var(--blue-opacity1), 0 2px 10px 0px var(--blue-opacity1);
+}
+.card {
+  box-shadow: none;
+  background: transparent;
+}
+h4 {
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.card-image {
+  background: url('https://placehold.it/500') no-repeat center center / cover;
+  height: 200px;
+}
+audio {
+  width: 100%;
+  margin-top: 32px;
+}
